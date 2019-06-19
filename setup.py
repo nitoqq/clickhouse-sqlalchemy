@@ -90,7 +90,7 @@ setup(
         'sqlalchemy>=1.2',
         'requests',
         # 'clickhouse-driver>=0.0.19',
-        'clickhouse-driver @ git+https://github.com/nitoqq/clickhouse-driver.git@deps-environment-markers#egg=clickhouse-driver-0.1.19',
+        'clickhouse-driver @ git+https://github.com/nitoqq/clickhouse-driver.git@deps-environment-markers',
         'ipaddress; python_version<"3.4"',
     ],
     # Registering `clickhouse` as dialect.
